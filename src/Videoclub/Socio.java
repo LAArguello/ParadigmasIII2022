@@ -9,25 +9,25 @@ package Videoclub;
  * @author LeoArguello
  */
 public class Socio extends Usuario {
-    private int numSocio;
-    private int idTarjeta;
+    private Integer numSocio;
+    private Integer idTarjeta;
 
     public void alquilarPeliculas(){}
     public void comprarPeliculas(){}
     
-    public int getNumSocio() {
+    public Integer getNumSocio() {
         return numSocio;
     }
 
-    public void setNumSocio(int numSocio) {
+    public void setNumSocio(Integer numSocio) {
         this.numSocio = numSocio;
     }
 
-    public int getIdTarjeta() {
+    public Integer getIdTarjeta() {
         return idTarjeta;
     }
 
-    public void setIdTarjeta(int idTarjeta) {
+    public void setIdTarjeta(Integer idTarjeta) {
         this.idTarjeta = idTarjeta;
     }
     

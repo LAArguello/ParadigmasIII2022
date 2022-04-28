@@ -9,24 +9,24 @@ package Videoclub;
  * @author LeoArguello
  */
 public class Tarjeta {
-    private int idTarjeta;
-    private int numSocio;
+    private Integer idTarjeta;
+    private Integer numSocio;
 
     public void saldo(){}
     
-    public int getIdTarjeta() {
+    public Integer getIdTarjeta() {
         return idTarjeta;
     }
 
-    public void setIdTarjeta(int idTarjeta) {
+    public void setIdTarjeta(Integer idTarjeta) {
         this.idTarjeta = idTarjeta;
     }
 
-    public int getNumSocio() {
+    public Integer getNumSocio() {
         return numSocio;
     }
 
-    public void setNumSocio(int numSocio) {
+    public void setNumSocio(Integer numSocio) {
         this.numSocio = numSocio;
     }
     

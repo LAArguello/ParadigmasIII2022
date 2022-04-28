@@ -9,16 +9,16 @@ package Videoclub;
  * @author LeoArguello
  */
 public class Pedido {
-    private int numPedido;
+    private Integer numPedido;
     private Usuario user;
     private Pelicula pelicula;
     private Tarjeta tarjeta;
 
-    public int getNumPedido() {
+    public Integer getNumPedido() {
         return numPedido;
     }
 
-    public void setNumPedido(int numPedido) {
+    public void setNumPedido(Integer numPedido) {
         this.numPedido = numPedido;
     }
 

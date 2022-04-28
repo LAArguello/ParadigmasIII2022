@@ -9,36 +9,36 @@ package Videoclub;
 public class Videoclub {
 
    private String nombre;
-   private int cantSocios;
-   private int cantUsuarios;
-   private int cantPeliculas;
+   private Integer cantSocios;
+   private Integer cantUsuarios;
+   private Integer cantPeliculas;
 
    public void pedirPeliculas(){}   
    public void gestionDeCatalogo(){}
    public void gestionDeUsuarios(){}
    public void gestionDeSocios(){}
    
-    public int getCantSocios() {
+    public Integer getCantSocios() {
         return cantSocios;
     }
 
-    public void setCantSocios(int cantSocios) {
+    public void setCantSocios(Integer cantSocios) {
         this.cantSocios = cantSocios;
     }
 
-    public int getCantUsuarios() {
+    public Integer getCantUsuarios() {
         return cantUsuarios;
     }
 
-    public void setCantUsuarios(int cantUsuarios) {
+    public void setCantUsuarios(Integer cantUsuarios) {
         this.cantUsuarios = cantUsuarios;
     }
 
-    public int getCantPeliculas() {
+    public Integer getCantPeliculas() {
         return cantPeliculas;
     }
 
-    public void setCantPeliculas(int cantPeliculas) {
+    public void setCantPeliculas(Integer cantPeliculas) {
         this.cantPeliculas = cantPeliculas;
     }
 

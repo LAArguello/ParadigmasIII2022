@@ -10,7 +10,7 @@ package Videoclub;
  */
 public class Categoria {
     private String nombre;
-    private int id;
+    private Integer id;
 
     public String getNombre() {
         return nombre;

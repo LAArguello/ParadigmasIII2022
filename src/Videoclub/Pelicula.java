@@ -10,18 +10,19 @@ package Videoclub;
  */
 public class Pelicula {
     private String nombre;
-    private int id;
-    private int cant;
+    private Integer id;
+    private Integer cant;
     private Categoria categoria;
+    private Integer anioEstreno;
 
-    public int getAnioEstreno() {
+
+    public Integer getAnioEstreno() {
         return anioEstreno;
     }
 
-    public void setAnioEstreno(int anioEstreno) {
+    public void setAnioEstreno(Integer anioEstreno) {
         this.anioEstreno = anioEstreno;
     }
-    private int anioEstreno;
 
 
     public String getNombre() {
@@ -41,19 +42,19 @@ public class Pelicula {
     }
 
     
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public int getCant() {
+    public Integer getCant() {
         return cant;
     }
 
-    public void setCant(int cant) {
+    public void setCant(Integer cant) {
         this.cant = cant;
     }
 
